@@ -5,7 +5,6 @@ import datetime,time
 from django.template import Template,Context
 from django.template.loader import get_template
 from models import Publisher
-import sqlite3
 
 def hello(request):
     # return HttpResponse(datetime.datetime.strptime(('%Y-%m-%d %H:%M:%S',datetime.datetime.time())))
